@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>디어엉클 주간 마케팅 대시보드</title>
+<style>
+body{margin:0;background:#f5f6f8;color:#202124;font-family:Arial,'Noto Sans KR',sans-serif}
+.wrap{max-width:1050px;margin:auto;padding:32px 20px 60px}
+h1{margin:8px 0;font-size:30px}.muted{color:#6b7280}
+.tag{display:inline-block;background:#dbeafe;color:#1d4ed8;border-radius:99px;padding:7px 12px;font-weight:bold;font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:25px 0}
+.card,section{background:white;border:1px solid #e5e7eb;border-radius:14px;padding:18px}
+.label{color:#6b7280;font-size:13px}.num{font-size:26px;font-weight:bold;margin-top:8px}
+h2{font-size:20px;margin:28px 0 10px}table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:11px 8px;border-bottom:1px solid #eee;font-size:14px}
+th{color:#6b7280;font-size:12px}.todo{padding:11px 0;border-bottom:1px solid #eee}
+.code{font-family:monospace;color:#2563eb}
+@media(max-width:700px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<span class="tag">DEAR UNCLE · WEEKLY MARKETING</span>
+<h1>주간 마케팅 대시보드</h1>
+<p class="muted">운영 주기: 월요일 시작 · 일요일 마감 | 첫 주 데이터 수집 중</p>
+
+<div class="cards">
+<div class="card"><div class="label">주간 목표 달성률</div><div class="num">0%</div><div class="muted">첫 주 기준</div></div>
+<div class="card"><div class="label">비지인 주문</div><div class="num">측정 전</div><div class="muted">목표: 1건 이상</div></div>
+<div class="card"><div class="label">콘텐츠 게시</div><div class="num">0 / 4~6</div><div class="muted">이번 주 목표</div></div>
+<div class="card"><div class="label">광고비</div><div class="num">0원</div><div class="muted">검증 전 집행 보류</div></div>
+</div>
+
+<h2>이번 주 우선순위</h2>
+<section>
+<div class="todo"><b>1. 카페24 데이터 확보</b><br><span class="muted">대표님이 CSV 다운로드 후 첨부</span></div>
+<div class="todo"><b>2. 창업자 스토리 릴스 1개</b><br><span class="muted">디어효신 대본·샷리스트 → 대표님 촬영·게시</span></div>
+<div class="todo"><b>3. 후디 디테일 릴스 1~2개</b><br><span class="muted">모델 없이 제품 디테일 중심</span></div>
+</section>
+
+<h2>핵심 지표</h2>
+<section>
+<table>
+<tr><th>지표</th><th>이번 주</th><th>전주</th><th>목표</th></tr>
+<tr><td>총 주문 / 비지인 주문</td><td>측정 전</td><td>—</td><td>비지인 1건+</td></tr>
+<tr><td>매출 / 객단가</td><td>측정 전</td><td>—</td><td>기준선 확보</td></tr>
+<tr><td>방문 / 상품조회 / 장바구니</td><td>측정 전</td><td>—</td><td>기준선 확보</td></tr>
+<tr><td>구매전환율</td><td>측정 전</td><td>—</td><td>기준선 확보</td></tr>
+<tr><td>콘텐츠 게시</td><td>0</td><td>—</td><td>4~6개</td></tr>
+</table>
+</section>
+
+<h2>작업 코드</h2>
+<section>
+<table>
+<tr><th>코드</th><th>작업</th><th>이 채팅에 보낼 문장</th></tr>
+<tr><td class="code">DU-W1-01</td><td>주간 목표·CSV 준비</td><td>디어엉클 DU-W1-01 실행</td></tr>
+<tr><td class="code">DU-W1-02</td><td>데이터 분석·대시보드</td><td>디어엉클 DU-W1-02 실행</td></tr>
+<tr><td class="code">DU-W1-04</td><td>창업자 스토리 릴스</td><td>디어엉클 DU-W1-04 실행</td></tr>
+<tr><td class="code">DU-W1-05</td><td>후디 디테일 릴스</td><td>디어엉클 DU-W1-05 실행</td></tr>
+<tr><td class="code">DU-W1-07</td><td>주간 리뷰</td><td>디어엉클 DU-W1-07 실행</td></tr>
+</table>
+</section>
+<p class="muted">업데이트: 카페24·인스타그램 데이터를 받은 뒤 실제 수치로 갱신합니다.</p>
+</main>
+</body>
+</html>
