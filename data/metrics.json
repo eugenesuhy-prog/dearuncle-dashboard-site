@@ -1,0 +1,122 @@
+{
+  "updated_at": "2026-09-13T15:21:37Z",
+  "source": "Cafe24 CSV",
+  "period": {
+    "from": "2026-09-09",
+    "to": "2026-09-12"
+  },
+  "summary": {
+    "csv_rows": 51,
+    "orders": 25,
+    "paid": 3777485,
+    "order_amount": 4473000,
+    "aov": 151099,
+    "units": 52,
+    "friend_orders": 25,
+    "nonfriend_orders": 0
+  },
+  "daily": [
+    {
+      "date": "2026-09-09",
+      "orders": 3
+    },
+    {
+      "date": "2026-09-10",
+      "orders": 7
+    },
+    {
+      "date": "2026-09-11",
+      "orders": 11
+    },
+    {
+      "date": "2026-09-12",
+      "orders": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "DEAR Zip-up Hoodie - Oatmeal",
+      "qty": 10,
+      "sales": 1634000,
+      "orders": 10
+    },
+    {
+      "name": "DEAR Zip-up Hoodie - Gray",
+      "qty": 4,
+      "sales": 656000,
+      "orders": 4
+    },
+    {
+      "name": "DEAR Sweat Shirt - Gray",
+      "qty": 6,
+      "sales": 408000,
+      "orders": 5
+    },
+    {
+      "name": "Signature Boxy Crop Tee - Gray/Navy",
+      "qty": 6,
+      "sales": 324000,
+      "orders": 6
+    },
+    {
+      "name": "Signature Boxy Crop Tee - White",
+      "qty": 5,
+      "sales": 270000,
+      "orders": 5
+    },
+    {
+      "name": "PAIR Zip-up Hoodie Oatmeal + Sweat Shirt Oatmeal",
+      "qty": 1,
+      "sales": 232000,
+      "orders": 1
+    },
+    {
+      "name": "DEAR Sweat Shirt - Oatmeal",
+      "qty": 3,
+      "sales": 204000,
+      "orders": 2
+    },
+    {
+      "name": "DEAR Sweat Shorts - Gray",
+      "qty": 3,
+      "sales": 176000,
+      "orders": 3
+    },
+    {
+      "name": "Signature Cap - Vintage Blue",
+      "qty": 5,
+      "sales": 158000,
+      "orders": 3
+    },
+    {
+      "name": "DEAR Sweat Shorts - Oatmeal",
+      "qty": 2,
+      "sales": 136000,
+      "orders": 2
+    },
+    {
+      "name": "Signature Cap - Butter Cream",
+      "qty": 4,
+      "sales": 128000,
+      "orders": 4
+    },
+    {
+      "name": "Signature Boxy Crop Tee - Cream/Red",
+      "qty": 1,
+      "sales": 54000,
+      "orders": 1
+    },
+    {
+      "name": "Signature Ringer Tee - White",
+      "qty": 1,
+      "sales": 46000,
+      "orders": 1
+    },
+    {
+      "name": "Signature Cap - Dust Black",
+      "qty": 1,
+      "sales": 32000,
+      "orders": 1
+    }
+  ]
+}
